@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">HARRIMARGONO_1202151230_MODUL3</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="title_placeholder">Title</string>
+    <string name="news_placeholder">News</string>
+    <string name="sports_info_placeholder">Here is some news</string>
+    <string name="news_label">News</string>
+    <string name="filler_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae semper quam. In a metus ut nisl pharetra hendrerit et a leo. Curabitur nec sapien odio. Vestibulum a mollis felis. Cras molestie felis nibh, ut maximus mauris feugiat tincidunt. Curabitur ultricies eros sed ipsum pulvinar vehicula. Maecenas volutpat, massa sit amet aliquam eleifend, massa lorem tempor sapien, eget finibus massa dolor molestie lorem. Suspendisse at purus mauris. Proin nibh ligula, suscipit vel pharetra posuere, bibendum id lorem.</string>
+
+    <string-array name="air_titles">
+        <item>Ades</item>
+        <item>Amidis</item>
+        <item>AQUA</item>
+        <item>Cleo</item>
+        <item>Club</item>
+        <item>Equil</item>
+        <item>Evian</item>
+        <item>LeMinerale</item>
+        <item>NESTLE Pure Life</item>
+        <item>Pristine</item>
+        <item>Vit</item>
+    </string-array>
+
+    <string-array name="air_info">
+        <item>Ades sekarang punya kemasan baru!</item>
+        <item>Amidis sekarang punya kemasan baru!</item>
+        <item>AQUA sekarang punya kemasan baru!</item>
+        <item>Cleo sekarang punya kemasan baru!</item>
+        <item>Club sekarang punya kemasan baru!</item>
+        <item>Equil sekarang punya kemasan baru!</item>
+        <item>Evian sekarang punya kemasan baru!</item>
+        <item>Leminerale sekarang punya kemasan baru!</item>
+        <item>Nestle sekarang punya kemasan baru!</item>
+        <item>Pristine sekarang punya kemasan baru!</item>
+        <item>Vit sekarang punya kemasan baru!</item>
+    </string-array>
+
+
+    <array name="sports_images">
+        <item>@drawable/ades</item>
+        <item>@drawable/amidis</item>
+        <item>@drawable/aqua</item>
+        <item>@drawable/cleo</item>
+        <item>@drawable/club</item>
+        <item>@drawable/equil</item>
+        <item>@drawable/evian</item>
+        <item>@drawable/leminerale</item>
+        <item>@drawable/nestle</item>
+        <item>@drawable/pristine</item>
+        <item>@drawable/vit</item>
+    </array>
+
+</resources>
+
