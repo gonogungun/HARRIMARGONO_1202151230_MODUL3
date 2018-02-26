@@ -26,24 +26,24 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Initialize the RecyclerView
+        //Inisiasi RecyclerView
         mRecyclerView = (RecyclerView) findViewById(R.id.viewRecycle);
 
         int gridColumn = getResources().getInteger(R.integer.grid_column_count): 1;
 
 
 
-        //Set the Layout Manager
+        //Mengatur Layout Manager
         mRecyclerView.setLayoutManager(new GridLayoutManager(this, gridColumn));
 
-        //Initialize the ArrayLIst that will contain the data
+        //Inisiasi array yang akan diisi dengan data
         mSportsData = new ArrayList<>();
 
         //Initialize the adapter and set it ot the RecyclerView
         mAdapter = new AirAdapter(this, mSportsData);
         mRecyclerView.setAdapter(mAdapter);
 
-        //Get the data
+        //Mengambil data
         initializeData();
 
 
