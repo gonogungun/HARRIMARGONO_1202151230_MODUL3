@@ -3,6 +3,7 @@ package com.example.android.harrimargono_1202151230_modul3;
 import android.content.res.TypedArray;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.view.View;
 import android.widget.Button;
@@ -28,8 +29,12 @@ public class MainActivity extends AppCompatActivity {
         //Initialize the RecyclerView
         mRecyclerView = (RecyclerView) findViewById(R.id.viewRecycle);
 
+        int gridColumn = getResources().getInteger(R.integer.grid_column_count): 1;
+
+
+
         //Set the Layout Manager
-        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        mRecyclerView.setLayoutManager(new GridLayoutManager(this, gridColumn));
 
         //Initialize the ArrayLIst that will contain the data
         mSportsData = new ArrayList<>();
